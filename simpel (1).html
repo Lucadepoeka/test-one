@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>opdracht 1</title>
+        <!--alle style dingen-->
+        <link>
+        <style href="style: .css;">
+            body {
+                background-color: burlywood;
+                line-height: 20px
+            }   
+            h1 {
+                text-align: center;
+            }
+            p {
+                font-size: larger;
+                font-family: 'Times New Roman', Times, serif; 
+            }
+            li {
+                font-size: larger;
+            }
+            .more-info {
+                text-align: center;
+            }
+            .browntext {
+                color: rgb(109, 72, 27);
+            }
+         </style>
+    </head>
+    <body>
+        <!--koptext en plaatje-->
+        <h1>-----Koffie-----</h1>
+        <img src="https://static.served.nl/698/conversions/Koffie-compleet-2-slot3.jpg" width="100%" alt="plaatje van koffie"/>
+        <!--intro-->
+        <div id="intro">
+            <h2 class="browntext">intro:</h2>
+            <p>
+                Koffie is een meestal warm genuttigde drank,<br> 
+                die wordt bereid op basis van water en gedroogde en gebrande pitten van de koffieplant
+                die vanwege hun vorm koffiebonen worden genoemd. Koffie bevat het stimulerende middel cafeïne.
+            </p>
+            <p>
+                in de tijd dat koffie is uitgevonden zijn er allemaal soorten koffie soorten bedacht.
+            </p>
+         </div>
+        <!--soorten koffie-->
+         <div id="soorten-koffie">
+            <br>
+            <p>dit zijn een paar van de beroemste koffiesoorten;</p>
+            <ul>
+                <a href="#americano"><li>Americano</li></a>
+                <a href="#macchiato"><li>Macchiato</li></a>
+                <a href="#cappuccino"><li>cappuchino</li></a>
+            </ul>
+        </div>
+        <!--info over de koffie-->
+        <div id="info-over-koffie">
+            <h2 id="americano" class="browntext">Americano:</h2>
+            <p>
+                Een Americano bestaat uit espresso, , 
+                aangelengd met een even grote hoeveelheid heet water. 
+                De smaak die zo gecreëerd wordt, doet dankzij haar zachte en milde tonen denken aan 
+                filterkoffie. 
+                Qua sterkte liggen Americano koffie en filterkoffie erg dicht bij elkaar. 
+                De Americano is groter in volume dan een espresso
+            </p>
+            <br>
+            <h2 id="macchiato" class="browntext">Macchiato</h2>
+            <p>
+                Latte macchiato betekent letterlijk 'gevlekte melk'.
+                Een toepasselijke naam, want deze heerlijke koffievariatie bevat meer melk dan koffie.
+            </p>
+            <br>
+            <h2 id="cappuccino" class="browntext">Cappuccino</h2>
+            <p>
+                Een cappuccino bestaat uit één deel espresso, één deel gestoomde melk en één deel melkschuim. Deze mengen met elkaar, 
+                waardoor de witte kleur van de melk mooi combineert met de kleur van de koffie.
+            </p>
+            <!--meer info-->
+            <p class="more-info">Wil je meer info klik dan <a target="_blank" href="https://nl.wikipedia.org/wiki/Koffie_(drank)">hier</a></p>
+        </div>
+        <!--test-->
+        <div id="test">
+
+            <hr>
+            <form action="subbmit" method="post">
+                <label for=comment>comment</label>
+                <input type="text" id="comment" name="comment">
+            </form>
+             </hr>   
+        </div>
+    </body>
+</html>
